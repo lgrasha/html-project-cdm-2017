@@ -1,0 +1,40 @@
+body {
+     color: #414141; /*dark grey*/
+     background-color: #e9edfb; /*light lavender*/
+     font-size: 17px;
+     font-family: 'Helvetica', sans-serif;
+     text-align: justify;
+     margin: 0 5em 0 5em;
+}
+
+h1, h2, h3 {
+     text-align: center;
+}
+
+h1 {
+     font-size: 3em;
+     font-family: 'Garamond', serif;
+     font-weight: bolder;
+}
+
+h2 {
+     font-size: 2.3em;
+     font-family: 'Garamond', serif;
+     font-style: italic;
+}
+
+h3 {
+     font-size: 1.5em;
+     font-family: 'Garahmond', serif;
+     font-style: italic;
+}
+
+li {
+     list-style-type: circle;
+     margin: 0 0 0 1.5em;
+}
+
+img {
+     display: block;
+     margin: auto;
+}
