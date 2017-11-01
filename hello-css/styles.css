@@ -17,6 +17,12 @@ h1 {
      font-weight: bolder;
 }
 
+header img {
+     display: inline-block;
+     height: inherit;
+     vertical-align: top;
+}
+
 h2 {
      font-size: 2.3em;
      font-family: 'Garamond', serif;
@@ -29,12 +35,13 @@ h3 {
      font-style: italic;
 }
 
-li {
-     list-style-type: circle;
-     margin: 0 0 0 1.5em;
+#image {
+     display:inline-block;
+     align-content: center;
+     padding: 1em 0;
 }
 
-img {
-     display: block;
-     margin: auto;
+div.opportunities {
+     margin: auto 2em;
+     text-align: center;
 }
