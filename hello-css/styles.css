@@ -1,14 +1,25 @@
+* {
+     margin: 15px 0;
+     padding: 10 px;
+     box-sizing: border-box;
+}
+
 body {
-     color: #414141; /*dark grey*/
-     background-color: #e9edfb; /*light lavender*/
+     color: #fff; /*dark grey*/
+     background-color: #9295ca; /*purple*/
      font-size: 17px;
      font-family: 'Helvetica', sans-serif;
      text-align: justify;
-     margin: 0 5em 0 5em;
+     width: 610px;
+     margin: auto;
 }
 
 h1, h2, h3 {
      text-align: center;
+     font-family: 'Garamond', cursive, serif;
+     padding: .3em;
+     background-color: /*#e66665 red*/ #accbe8; /*blue*/
+     border-radius: 10px;
 }
 
 h1 {
@@ -17,11 +28,12 @@ h1 {
      font-weight: bolder;
 }
 
-header img {
+/*#header-image {
      display: inline-block;
-     height: inherit;
+     height: .1em;
      vertical-align: top;
-}
+     margin-left: 0;
+}*/
 
 h2 {
      font-size: 2.3em;
@@ -35,13 +47,37 @@ h3 {
      font-style: italic;
 }
 
-#image {
+.image {
      display:inline-block;
      align-content: center;
-     padding: 1em 0;
+     padding: -1em 0 0 0;
 }
 
 div.opportunities {
-     margin: auto 2em;
+     margin: auto;
      text-align: center;
+}
+
+.container {
+     float: left;
+     width: 5 em;
+     height: 100 px;
+}
+
+p {
+     padding: 15px;
+}
+.ungarn {
+     padding: 15px 15px 0 15px;
+}
+
+li {
+     padding: 5px 20px;
+}
+
+a:link {
+     color: #fff;
+}
+a:visited {
+     color: #fff;
 }
