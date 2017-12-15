@@ -1,14 +1,7 @@
-* {
-     margin: 15px 0;
-     padding: 10 px;
-     box-sizing: border-box;
-}
-
 body {
      color: #fff; /*dark grey*/
-     background-color: #9295ca; /*purple*/
-     font-size: 17px;
-     font-family: 'Helvetica', sans-serif;
+     background-color: #9598d4; /*purple*/
+
      text-align: justify;
      width: 610px;
      margin: auto;
@@ -17,33 +10,24 @@ body {
 h1, h2, h3 {
      text-align: center;
      font-family: 'Garamond', cursive, serif;
-     padding: .3em;
-     background-color: /*#e66665 red*/ #accbe8; /*blue*/
+     padding: .28em;
+     background-color: #b1d9ff; /*blue*/
      border-radius: 10px;
+     text-shadow: .5px .5px .5px black;
 }
 
 h1 {
-     font-size: 3em;
-     font-family: 'Garamond', serif;
-     font-weight: bolder;
+     font-size: 3.5em;
+     font-weight: bold;
 }
-
-/*#header-image {
-     display: inline-block;
-     height: .1em;
-     vertical-align: top;
-     margin-left: 0;
-}*/
 
 h2 {
      font-size: 2.3em;
-     font-family: 'Garamond', serif;
      font-style: italic;
 }
 
 h3 {
-     font-size: 1.5em;
-     font-family: 'Garahmond', serif;
+     font-size: 2.3em;
      font-style: italic;
 }
 
@@ -57,16 +41,14 @@ div.opportunities {
      text-align: center;
 }
 
-.container {
-     float: left;
-     width: 5 em;
-     height: 100 px;
+p, ul {
+     font-size: 18px;
+     font-family: 'Cambria', 'Calibri', sans-serif;
+     letter-spacing: .8px;
+     word-spacing: 2px;
 }
 
-p {
-     padding: 15px;
-}
-.ungarn {
+.hungary {
      padding: 15px 15px 0 15px;
 }
 
